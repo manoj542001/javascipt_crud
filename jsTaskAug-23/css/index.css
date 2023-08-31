@@ -1,0 +1,136 @@
+*{
+    font-family: poppins;
+}
+.section-1{
+    box-shadow: 2px 2px 2px rgb(214, 214, 211);
+    background:url(../image/index/ftt-bg.png),color( rgb(255, 253, 253));
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+.navShadow{
+    box-shadow: 2px 2px 2px rgb(214, 214, 211);
+
+    
+}
+.cardImg{
+    position: relative;
+}
+.card-body{
+    position: absolute;
+    top: 60%;
+    
+}
+.nav-link{
+    font-size: 12px;
+}
+.nav-item .btn{
+    font-size: 12px;
+}
+.badg{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../font/Poppins/Poppins-SemiBold.ttf);
+    src: url(../font/Poppins/Poppins-Medium.ttf);
+    src: url(../font/Poppins/Poppins-Regular.ttf);
+}
+h3{
+    font-family: poppins;
+}
+.card-text{
+    font-size: 11px;
+}
+.con p{
+    font-size: 10px;
+}
+.txDk{
+    font-weight: 900;
+    font-size: 12px;
+    
+}
+.con{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.img-icon{
+   position: relative;
+}
+.tick{
+    position: absolute;
+   left: 90%;
+    top: 40%;
+}
+.section-3 h5{
+    font-weight: 900;
+}
+.section-5 h5{
+    font-weight: 900;
+}
+.taBtx{
+    font-size: 10px;
+    font-weight: bold;
+}
+.tabCard{
+    height: 50vh;
+    
+}
+.box p{
+    font-size: 12px;
+    padding-top: 10px;
+    font-weight: 900;
+   
+}
+.section-6 h5{
+    font-weight: 900;
+}
+
+.footer p{
+    font-size: 10px;
+}
+.foot-icon{
+   background-image: url(../image/index/scl-icon1.png);
+}
+.footer a{
+    text-decoration: none;
+    color: #d3cfcf;
+}
+.inForm{
+    background-color:  #001C56;
+    color: #faf6f6;
+}
+
+.copy{
+    font-weight: bolder;
+    font-size: 14px;
+}
+.s-icon{
+    position: relative;
+}
+.s-iconImg{
+    position: absolute;
+    left: 1%;
+}
+.search-in{
+    padding-left: 12%;
+}
+.footForm::placeholder{
+    color: aliceblue;
+}
+.footForm:focus{
+    color: black;
+    background-color: black;
+}
+footer{
+   
+      background:linear-gradient(to right,rgba(0, 0, 90 ),rgba(0, 0, 75,0.8)),url(../image/index/ftt-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.footer a:hover{
+    color: rgb(255, 4, 37);
+    
+}

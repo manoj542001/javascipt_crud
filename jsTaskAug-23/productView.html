@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product View</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.0-dist/css/bootstrap.rtl.min.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <h1 class="text-center my-3 bg-primary text-white">Product View</h1>
+                <table class="table table-striped text-center p-2">
+                    <div class="color"><button class="btn btn-warning " id="dashboard">dashboard</button>
+                    </div>
+                    <thead>
+                        <th id="heloo">SI.NO</th>
+                        <th>Product Name</th>
+                        <th>Product Quantity</th>
+                        <th>Product MRP Price</th>
+                        <th>Product Sale Price</th>
+                        <th>Date</th>
+                        <th>Actions</th>
+                        <th><button class="btn btn-success" id="add">Add</button></th>
+                    </thead>
+                    <tbody id="tableBody">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <div id="box">
+        <div class="d-flex justify-content-center">
+
+            <form action="" style="display: none;" id="form">
+                <input type="text" class="form-control my-2" value="" name="product" id="product"><br>
+                <input type="text" class="form-control my-2" value="" name="quantity" id="quantity"><br>
+                <input type="text" class="form-control my-2" value="" name="mrpprice" id="mrpprice"><br>
+                <input type="text" class="form-control my-2" value="" name="salePrice" id="salePrice">
+                <button type="submit" class="btn btn-outline-success">Submit</button>
+                <!-- <button type="button" id="clickBtn">Update</button> -->
+            </form>
+
+        </div>
+
+        <script src="./js/productView.js"></script>
+</body>
+
+</html>

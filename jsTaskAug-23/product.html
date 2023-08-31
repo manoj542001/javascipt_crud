@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.0-dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="./css/product.css">
+</head>
+
+<body>
+
+    <div class="container " id="container">
+        <h1 class="text-center my-3 bg-primary text-white">Product Add</h1>
+        <form action="#" id="productForm" class="form">
+            <div class="form-group">
+                <label for="product">Product Name</label>
+                <input type="text" id="product" placeholder="Enter Product Name" />
+                <p>Error Message</p>
+            </div>
+            <!-- name -->
+            <div class="form-group">
+                <label for="quantity">Product Quantity</label>
+                <input type="text" id="quantity" data-name="Quantity" placeholder="Enter Quantity " />
+                <p>Error Message</p>
+            </div>
+            <div class="form-group">
+                <label for="mrpPrice">Product MRP Price</label>
+                <input type="text" id="mrpPrice" data-name="MRP_price" placeholder="Enter Quantity " />
+                <p>Error Message</p>
+            </div>
+
+            <div class="form-group">
+                <label for="salePrice">Product Sale Price</label>
+                <input type="text" id="salePrice" data-name="SalePrice" placeholder="Enter Quantity " />
+                <p>Error Message</p>
+            </div>
+            <!-- date field -->
+            <!-- <div class="form-group">
+                <label for="firstName">Product Quantity</label>
+                <input type="text" id="Quantity" data-name="Quantity" placeholder="Enter Quantity " />
+            </div> -->
+            <button type="submit">ADD ITEM</button>
+            <a href="./productView.html">
+                <button type="button" class="productBtn my-2">Product View</button>
+
+            </a>
+        </form>
+    </div>
+
+    <script src="./js/product.js"></script>
+</body>
+
+</html>
